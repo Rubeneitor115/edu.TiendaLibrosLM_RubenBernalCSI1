@@ -1,0 +1,39 @@
+<!-- Rubén Bernal Ramos, CSI1 -->
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Compra de Libros</title>
+</head>
+<body>
+  <h1>Compra de Libros</h1>
+
+  <p id="saldo">Saldo disponible: 100€</p>
+
+  <label>
+    Selecciona un libro:
+    <select id="libroSelect">
+      <option value="libro1" data-precio="25">Libro 1 - 25€</option>
+      <option value="libro2" data-precio="40">Libro 2 - 40€</option>
+      <option value="libro3" data-precio="15">Libro 3 - 15€</option>
+    </select>
+  </label>
+
+  <label>
+    Cantidad:
+    <input type="number" id="cantidadInput" min="1" />
+  </label>
+
+  <label>
+    <input type="checkbox" id="terminos" /> Acepto los términos y condiciones
+  </label>
+
+  <button id="agregarBtn">Agregar</button>
+
+  <ul id="listaCompras"></ul>
+
+  <script src="Script/scripts.js"></script>
+</body>
+</html>
+

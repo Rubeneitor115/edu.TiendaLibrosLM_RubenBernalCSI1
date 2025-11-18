@@ -1,0 +1,19 @@
+/*Rubén Bernal Ramos, CSI1*/
+
+@charset "UTF-8";
+
+body {
+	font-family: Arial; margin: 20px; 
+}
+
+label {
+	display: block; margin-top: 10px; 
+}
+	
+#saldo {
+	font-weight: bold; margin-top: 10px; 
+}
+	
+ul {
+	margin-top: 10px; 
+}
